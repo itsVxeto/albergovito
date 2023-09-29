@@ -88,6 +88,60 @@ body {
     transform: scale(1) translateY(0);
     opacity: 1;
 }
+
+/* !TODO: fare sta roba */
+
+/* xl screen */
+
+@media screen and (max-width: 1280px){
+    .navbar a{
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--txtColor);
+        margin-left: 2rem;
+        letter-spacing: 0.5px;
+        position: relative;
+        transition: .5s;
+        padding: 6px 20px;
+    }
+}
+
+/* lg screen */
+
+@media screen and (max-width: 1024px) {
+    .navbar a{
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--txtColor);
+        letter-spacing: 0.5px;
+        position: relative;
+        transition: .5s;
+        padding: 6px 10px;
+    }
+}
+
+/* md screen */
+
+@media screen and (max-width: 768px) {
+    .navbar a{
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--txtColor);
+        letter-spacing: 0.5px;
+        position: relative;
+        transition: .5s;
+        padding: 6px 8px;
+    }
+}
+/* sm screen */
+
+@media (max-width: 640px) {
+    .navbar a{
+        display: none;
+    }
+}
+
+
 /* .navbar a::after{
     content: '';
     position: absolute;
@@ -227,6 +281,7 @@ section.About {
 
 h2 span {
     color: var(--mainColor);
+    padding-left: 1rem;
 }
 
 /* Section Hobby */
